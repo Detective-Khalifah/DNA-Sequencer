@@ -79,34 +79,3 @@ with open('gat.txt', 'a') as result:
     result.write( '\nSequences appended:: {}' .format(new_sequence) )
 print("New Sequence:: {}" .format(new_sequence))
 print("1c complete.")
-
-
-"""
-Commented print statements are progress indicators showing task processed.
-"""
-
-
-""" DUMP
-dna, sequences, a, g = '', [], [], []
-            #itera = re.finditer('GAT', line)
-            #print(" \"GAT\" found at", itera.start(), itera.end())
-            #for char in line:
-            #if line.find('GAT'):
-                #print(line.substring(4))
-                #gat.append(line.index('GAT'))
-            #gat.append([line.find('GAT') for line in list if line.find('GAT') is not (-1)])
-            #print('gat:: ' .format(gat))
-            #gatters = [str(list).index('G') for char in line if char is 'A' or char is 'G']
-            #gat += str(gatters) + '\n'
-
-            #for line in list:
-            #print('line:: {}' .format(line))
-            #for char in line:
-             #   print('char:: {}' .format(char))
-            #if 'GAT' in line:
-             #   print("Found \'GAT\' at {} " .format(line) )
-
-        #gatts = []
-        #gatts.append([ sequences[gat.start():gat.end()+1] for gat in re.finditer('GAT', sequences)])
-        print("gatts:: " .format(gatts))
-"""
